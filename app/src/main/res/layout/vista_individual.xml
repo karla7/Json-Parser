@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+    tools:context="com.example.macedonio.json_parser.vista_individual"
+    android:background="#ff5bc8ff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_accesorio"
+        android:text="@string/id_accesorio"
+        android:textStyle="bold|normal|italic" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_nombre"
+        android:text="@string/nombre"
+        android:textStyle="bold|normal|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_color"
+        android:text="@string/color"
+        android:textStyle="bold|normal|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_tipo"
+        android:text="@string/tipo"
+        android:textStyle="bold|normal|italic" />
+
+
+</LinearLayout>
+
